@@ -10,6 +10,12 @@ Escribe respuestas de la etapa 1 acá
 
 ## ETAPA 2
 
-Escribe respuestas de la etapa 2 acá
+¿Qué pasa si cambias el nombre del servicio de `postgres` a `db`? ¿Qué otros cambios tendrías que hacer?
+
+También se debe cambiar el nombre de la dependencia en de `flyway`, es decir: 
+
+flyway:
+    depends_on:
+        - nuevoNombre
 
 ...
